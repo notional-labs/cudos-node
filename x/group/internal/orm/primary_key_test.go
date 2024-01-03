@@ -3,11 +3,11 @@ package orm
 import (
 	"testing"
 
+	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

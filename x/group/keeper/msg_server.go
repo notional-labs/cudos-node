@@ -5,14 +5,14 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/errors"
+	"github.com/CudoVentures/cudos-node/x/group/internal/math"
+	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/address"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
 )
 
 var _ group.MsgServer = Keeper{}

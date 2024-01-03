@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/CudoVentures/cudos-node/x/group"
 
 	"github.com/stretchr/testify/require"
 )

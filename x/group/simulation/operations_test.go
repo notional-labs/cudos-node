@@ -13,9 +13,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
 )
 
 type SimTestSuite struct {

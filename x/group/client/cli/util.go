@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"os"
 
+	"github.com/CudoVentures/cudos-node/x/group"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
 )
 
 func parseMembers(membersFile string) ([]group.MemberRequest, error) {

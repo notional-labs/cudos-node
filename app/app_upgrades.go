@@ -4,11 +4,11 @@ import (
 	"strings"
 
 	cudoMinttypes "github.com/CudoVentures/cudos-node/x/cudoMint/types"
+	"github.com/CudoVentures/cudos-node/x/group"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/authz"
-	"github.com/cosmos/cosmos-sdk/x/group"
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"
 )

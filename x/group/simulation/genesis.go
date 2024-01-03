@@ -10,7 +10,7 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
+	"github.com/CudoVentures/cudos-node/x/group"
 )
 
 const (

@@ -6,12 +6,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/errors"
+	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
 )
 
 var _ group.QueryServer = Keeper{}

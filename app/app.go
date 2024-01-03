@@ -68,8 +68,8 @@ import (
 	"github.com/CudoVentures/cudos-node/x/cudoMint"
 	cudominttypes "github.com/CudoVentures/cudos-node/x/cudoMint/types"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
-	groupmodule "github.com/cosmos/cosmos-sdk/x/group/module"
+	"github.com/CudoVentures/cudos-node/x/group"
+	groupmodule "github.com/CudoVentures/cudos-node/x/group/module"
 )
 
 const Name = "cudos-node"

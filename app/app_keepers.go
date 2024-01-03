@@ -56,8 +56,8 @@ import (
 	gravitykeeper "github.com/althea-net/cosmos-gravity-bridge/module/x/gravity/keeper"
 	gravitytypes "github.com/althea-net/cosmos-gravity-bridge/module/x/gravity/types"
 
-	"github.com/cosmos/cosmos-sdk/x/group"
-	groupkeeper "github.com/cosmos/cosmos-sdk/x/group/keeper"
+	"github.com/CudoVentures/cudos-node/x/group"
+	groupkeeper "github.com/CudoVentures/cudos-node/x/group/keeper"
 )
 
 func (app *App) AddKeepers(skipUpgradeHeights map[int64]bool, homePath string, appOpts servertypes.AppOptions) {

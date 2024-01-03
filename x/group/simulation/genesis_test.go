@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/simulation"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/simulation"
 )
 
 func TestRandomizedGenState(t *testing.T) {

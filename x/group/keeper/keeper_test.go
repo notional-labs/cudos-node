@@ -12,14 +12,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/internal/math"
+	"github.com/CudoVentures/cudos-node/x/group/keeper"
+	"github.com/CudoVentures/cudos-node/x/group/module"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/math"
-	"github.com/cosmos/cosmos-sdk/x/group/keeper"
-	"github.com/cosmos/cosmos-sdk/x/group/module"
 )
 
 type TestSuite struct {

@@ -1,11 +1,11 @@
 package keeper
 
 import (
+	"github.com/CudoVentures/cudos-node/x/group"
+	"github.com/CudoVentures/cudos-node/x/group/errors"
+	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/x/group"
-	"github.com/cosmos/cosmos-sdk/x/group/errors"
-	"github.com/cosmos/cosmos-sdk/x/group/internal/orm"
 )
 
 // Tally is a function that tallies a proposal by iterating through its votes,
