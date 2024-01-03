@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"strconv"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group"
 	client "github.com/CudoVentures/cudos-node/x/group/client/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
 	"github.com/cosmos/cosmos-sdk/testutil/cli"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 )

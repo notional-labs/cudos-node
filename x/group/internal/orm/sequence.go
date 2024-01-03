@@ -3,10 +3,10 @@ package orm
 import (
 	"encoding/binary"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // sequenceStorageKey is a fix key to read/ write data on the storage layer

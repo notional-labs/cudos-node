@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/stretchr/testify/require"
 )

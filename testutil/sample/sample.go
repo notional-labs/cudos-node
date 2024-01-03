@@ -1,8 +1,8 @@
 package sample
 
 import (
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // AccAddress returns a sample account address

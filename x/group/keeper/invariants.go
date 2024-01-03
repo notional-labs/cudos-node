@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"math"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	groupmath "github.com/CudoVentures/cudos-node/x/group/internal/math"
 	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 const weightInvariant = "Group-TotalWeight"

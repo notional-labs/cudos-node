@@ -3,8 +3,8 @@ package orm
 import (
 	"testing"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

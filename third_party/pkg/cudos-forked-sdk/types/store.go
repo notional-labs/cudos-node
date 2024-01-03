@@ -5,7 +5,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/kv"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/kv"
 	"github.com/cosmos/cosmos-sdk/store/types"
 )
 

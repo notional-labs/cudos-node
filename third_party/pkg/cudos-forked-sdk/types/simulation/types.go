@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"time"
 
-	sdk "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/x/auth/legacy/legacytx"

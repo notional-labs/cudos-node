@@ -1,9 +1,9 @@
 package group
 
 import (
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // MemberRequests defines a repeated slice of MemberRequest objects.

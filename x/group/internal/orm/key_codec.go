@@ -3,8 +3,8 @@ package orm
 import (
 	"fmt"
 
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // MaxBytesLen is the maximum allowed length for a key part of type []byte

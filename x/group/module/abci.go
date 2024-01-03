@@ -1,8 +1,8 @@
 package module
 
 import (
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group/keeper"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func EndBlocker(ctx sdk.Context, k keeper.Keeper) {

@@ -4,10 +4,10 @@ import (
 	"math/rand"
 	"time"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/module"
+	simtypes "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/simulation"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
-	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
 	"github.com/CudoVentures/cudos-node/x/group"

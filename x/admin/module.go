@@ -12,6 +12,8 @@ import (
 
 	abci "github.com/tendermint/tendermint/abci/types"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/module"
 	"github.com/CudoVentures/cudos-node/x/admin/client/cli"
 	"github.com/CudoVentures/cudos-node/x/admin/client/rest"
 	"github.com/CudoVentures/cudos-node/x/admin/keeper"
@@ -19,8 +21,6 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
 )
 
 var (

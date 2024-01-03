@@ -13,8 +13,8 @@ import (
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/require"
 
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/rest"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/rest"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/codec"

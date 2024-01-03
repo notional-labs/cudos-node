@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	sdk "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 )
 

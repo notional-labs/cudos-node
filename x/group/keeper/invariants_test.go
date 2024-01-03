@@ -13,12 +13,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/store"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group"
 	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	"github.com/CudoVentures/cudos-node/x/group/keeper"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 type invariantTestSuite struct {

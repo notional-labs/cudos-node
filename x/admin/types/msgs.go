@@ -1,8 +1,8 @@
 package types
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 )
 
 // bank message types
@@ -14,6 +14,7 @@ const (
 var _ sdk.Msg = &MsgAdminSpendCommunityPool{}
 
 // NewMsgSend - construct a msg to send coins from one account to another.
+//
 //nolint:interfacer
 func NewMsgAdminSpendCommunityPool(fromAddr, toAddr sdk.AccAddress, amount sdk.Coins) *MsgAdminSpendCommunityPool {
 	return &MsgAdminSpendCommunityPool{Initiator: fromAddr.String(), ToAddress: toAddr.String(), Coins: amount}

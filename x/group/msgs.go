@@ -3,12 +3,12 @@ package group
 import (
 	proto "github.com/gogo/protobuf/proto"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/tx"
 	errors "github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/CudoVentures/cudos-node/x/group/internal/math"
 	"github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/tx"
 )
 
 var _ sdk.Msg = &MsgCreateGroup{}

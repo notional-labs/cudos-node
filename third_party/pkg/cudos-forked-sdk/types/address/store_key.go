@@ -1,7 +1,7 @@
 package address
 
 import (
-	sdkerrors "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 )
 
 // MaxAddrLen is the maximum allowed length (in bytes) for an address.

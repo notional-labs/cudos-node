@@ -1,7 +1,7 @@
 package orm
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 )
 
 // TableExportable defines the methods to import and export a table.

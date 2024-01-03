@@ -3,13 +3,13 @@ package orm
 import (
 	"bytes"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/query"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	"github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
 )
 
 // indexer creates and modifies the second MultiKeyIndex based on the operations and changes on the primary object.

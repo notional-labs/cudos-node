@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/kv"
 	"github.com/CudoVentures/cudos-node/x/group"
 	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	"github.com/CudoVentures/cudos-node/x/group/keeper"
 	"github.com/CudoVentures/cudos-node/x/group/simulation"
 	"github.com/cosmos/cosmos-sdk/simapp"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	"github.com/cosmos/cosmos-sdk/types/kv"
 )
 
 func TestDecodeStore(t *testing.T) {

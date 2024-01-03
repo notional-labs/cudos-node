@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"fmt"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/address"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/CudoVentures/cudos-node/x/group"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/CudoVentures/cudos-node/x/group/internal/math"
 	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/address"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 

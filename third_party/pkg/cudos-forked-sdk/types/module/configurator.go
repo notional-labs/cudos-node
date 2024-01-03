@@ -5,8 +5,8 @@ import (
 
 	"github.com/gogo/protobuf/grpc"
 
-	sdk "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
-	sdkerrors "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/codec"
 )
 

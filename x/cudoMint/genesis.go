@@ -1,9 +1,9 @@
 package cudoMint
 
 import (
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/cudoMint/keeper"
 	"github.com/CudoVentures/cudos-node/x/cudoMint/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 // InitGenesis initializes the capability module's state from a provided genesis

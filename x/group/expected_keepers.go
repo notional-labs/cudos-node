@@ -1,7 +1,7 @@
 package group
 
 import (
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 

@@ -5,8 +5,8 @@ import (
 
 	"github.com/CudoVentures/cudos-node/app"
 	"github.com/CudoVentures/cudos-node/cmd/cudos-noded/cmd"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 func main() {

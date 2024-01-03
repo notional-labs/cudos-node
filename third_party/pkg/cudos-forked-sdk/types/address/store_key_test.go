@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/address"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/address"
 )
 
 func TestStoreKeySuite(t *testing.T) {

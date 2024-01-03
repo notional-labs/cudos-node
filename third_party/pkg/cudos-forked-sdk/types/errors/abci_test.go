@@ -143,7 +143,7 @@ func (s *abciTestSuite) TestABCIInfoStacktrace() {
 		},
 	}
 
-	const thisTestSrc = "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors.(*abciTestSuite).TestABCIInfoStacktrace"
+	const thisTestSrc = "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors.(*abciTestSuite).TestABCIInfoStacktrace"
 
 	for testName, tc := range cases {
 		_, _, log := ABCIInfo(tc.err, tc.debug)

@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	"github.com/CudoVentures/cudos-node/x/group"
-	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	// sdk "github.com/cosmos/cosmos-sdk/types"
+	// sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 
 	"github.com/CudoVentures/cudos-node/x/cudoMint/types"
 )

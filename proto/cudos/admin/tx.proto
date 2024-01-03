@@ -21,7 +21,7 @@ message MsgAdminSpendCommunityPool {
   string initiator = 1;
   string to_address = 2;
   repeated cosmos.base.v1beta1.Coin coins = 3
-  [(gogoproto.nullable) = false, (gogoproto.castrepeated) = "github.com/cosmos/cosmos-sdk/types.Coins"];
+  [(gogoproto.nullable) = false, (gogoproto.castrepeated) = "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types.Coins"];
 }
 
 message MsgAdminSpendResponse {}

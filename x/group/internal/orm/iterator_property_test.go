@@ -3,11 +3,11 @@ package orm
 import (
 	"testing"
 
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/query"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/stretchr/testify/require"
 	"pgregory.net/rapid"
 )

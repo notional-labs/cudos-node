@@ -3,12 +3,12 @@ package types
 import (
 	"fmt"
 
-	sdk "github.com/cosmos/cosmos-sdk/types"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 )
 
 type Params struct {
-	BlocksPerDay sdk.Int `protobuf:"bytes,1,opt,name=blocks_per_day,json=blocksPerDay,proto3,customtype=github.com/cosmos/cosmos-sdk/types.Int" json:"blocks_per_day"`
+	BlocksPerDay sdk.Int `protobuf:"bytes,1,opt,name=blocks_per_day,json=blocksPerDay,proto3,customtype=github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types.Int" json:"blocks_per_day"`
 }
 
 // IncrementModifier Parameter store keys

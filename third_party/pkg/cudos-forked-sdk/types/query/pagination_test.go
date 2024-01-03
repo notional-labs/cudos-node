@@ -9,9 +9,9 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	dbm "github.com/tendermint/tm-db"
 
-	sdk "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/address"
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/query"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/address"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/query"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"

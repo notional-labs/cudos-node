@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/bech32"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/bech32"
 )
 
 func TestEncodeAndDecode(t *testing.T) {

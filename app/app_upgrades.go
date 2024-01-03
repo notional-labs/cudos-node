@@ -3,11 +3,11 @@ package app
 import (
 	"strings"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/module"
 	cudoMinttypes "github.com/CudoVentures/cudos-node/x/cudoMint/types"
 	"github.com/CudoVentures/cudos-node/x/group"
 	storetypes "github.com/cosmos/cosmos-sdk/store/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/cosmos/cosmos-sdk/types/module"
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
 	upgradetypes "github.com/cosmos/cosmos-sdk/x/upgrade/types"

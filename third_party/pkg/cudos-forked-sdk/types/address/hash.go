@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/internal/conv"
 )
 

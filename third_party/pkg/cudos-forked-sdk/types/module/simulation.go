@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"time"
 
-	sdk "github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types"
-	"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/simulation"
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/codec"
 )
 

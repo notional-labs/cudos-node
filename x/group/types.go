@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"time"
 
+	sdk "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types"
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/CudoVentures/cudos-node/x/group/internal/math"
 	"github.com/CudoVentures/cudos-node/x/group/internal/orm"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
-	sdk "github.com/cosmos/cosmos-sdk/types"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )
 
 // DecisionPolicyResult is the result of whether a proposal passes or not a

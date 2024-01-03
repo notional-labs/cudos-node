@@ -8,15 +8,15 @@ import "gogoproto/gogo.proto";
 // Minter represents the minting state.
 message Minter {
   string mint_remainder = 1
-  [(gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+  [(gogoproto.customtype) = "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
   string norm_time_passed = 2
-  [(gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Dec",
+  [(gogoproto.customtype) = "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types.Dec",
     (gogoproto.nullable) = false
   ];
 }
 
 message Params {
-  string increment_modifier = 1 [(gogoproto.customtype) = "github.com/cosmos/cosmos-sdk/types.Int", (gogoproto.nullable) = false];
+  string increment_modifier = 1 [(gogoproto.customtype) = "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types.Int", (gogoproto.nullable) = false];
 }

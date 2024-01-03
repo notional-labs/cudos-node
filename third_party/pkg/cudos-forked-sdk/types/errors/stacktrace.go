@@ -48,9 +48,9 @@ func trimInternal(st errors.StackTrace) errors.StackTrace {
 	// manual error creation, or runtime for caught panics
 	for matchesFunc(st[0],
 		// where we create errors
-		"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors.Wrap",
-		"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors.Wrapf",
-		"github.com/CudoVentures/cudos-node/third_party/cudos-cosmos-sdk/types/errors.WithType",
+		"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors.Wrap",
+		"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors.Wrapf",
+		"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors.WithType",
 		// runtime are added on panics
 		"runtime.",
 		// _test is defined in coverage tests, causing failure

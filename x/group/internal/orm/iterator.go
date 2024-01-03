@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"reflect"
 
+	sdkerrors "github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/errors"
+	"github.com/CudoVentures/cudos-node/third_party/pkg/cudos-forked-sdk/types/query"
 	"github.com/CudoVentures/cudos-node/x/group/errors"
 	"github.com/cosmos/cosmos-sdk/codec"
-	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/cosmos/cosmos-sdk/types/query"
 )
 
 // defaultPageLimit is the default limit value for pagination requests.
