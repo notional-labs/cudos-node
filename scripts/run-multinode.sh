@@ -3,7 +3,11 @@ CURDIR=$(pwd)
 DENOM=${2:-"acudos"}
 ERC20_ADDR="0x817bbDbC3e8A1204f3691d14bB44992841e3dB35"
 rm -rf $CURDIR/cudos-data/
-killall screen
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    killall SCREEN
+else
+    killall screen
+fi
 
 # start a testnet
 build/cudos-noded testnet --keyring-backend=test
@@ -58,11 +62,11 @@ sed -i -E 's|allow_duplicate_ip = false|allow_duplicate_ip = true|g' $CURDIR/cud
 cp $CURDIR/cudos-data/node0/config/genesis.json $CURDIR/cudos-data/node1/config/genesis.json
 cp $CURDIR/cudos-data/node0/config/genesis.json $CURDIR/cudos-data/node2/config/genesis.json
 
-# echo "start all three validators"
-# screen -S validator1 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node0 
-# screen -S validator2 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node1 
-# screen -S validator3 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node2
+echo "start all three validators"
+screen -S validator1 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node0 
+screen -S validator2 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node1 
+screen -S validator3 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node2
 
-# echo $(build/cudos-noded keys show node0 -a --keyring-backend=test --home=$CURDIR/cudos-data/node0)
-# echo $(build/cudos-noded keys show node1 -a --keyring-backend=test --home=$CURDIR/cudos-data/node1)
-# echo $(build/cudos-noded keys show node2 -a --keyring-backend=test --home=$CURDIR/cudos-data/node2)
+echo $(build/cudos-noded keys show node0 -a --keyring-backend=test --home=$CURDIR/cudos-data/node0)
+echo $(build/cudos-noded keys show node1 -a --keyring-backend=test --home=$CURDIR/cudos-data/node1)
+echo $(build/cudos-noded keys show node2 -a --keyring-backend=test --home=$CURDIR/cudos-data/node2)
