@@ -222,12 +222,12 @@ func InitTestnet(
 		genBalances = append(genBalances, banktypes.Balance{Address: addr.String(), Coins: coins.Sort()})
 		genAccounts = append(genAccounts, authtypes.NewBaseAccount(addr, nil, 0, 0))
 		minSelfDelegation, _ := sdk.NewIntFromString(appparams.MinSelfDelegation)
-		valTokens := sdk.TokensFromConsensusPower(1000000, appparams.DefaultPowerReduction)
+		valTokens := sdk.TokensFromConsensusPower(10000000, appparams.DefaultPowerReduction)
 		// last validator get 999999 tokens, smaller than two others
 		// So that it go down, the chain will still be active
 		// If one of the first two validators go down, the chain will be halted
 		if i == 2 {
-			valTokens = sdk.TokensFromConsensusPower(999999, appparams.DefaultPowerReduction)
+			valTokens = sdk.TokensFromConsensusPower(9999999, appparams.DefaultPowerReduction)
 		}
 		createValMsg, err := stakingtypes.NewMsgCreateValidator(
 			sdk.ValAddress(addr),
