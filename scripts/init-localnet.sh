@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# This script is used to initialize, and run a localnet with 3 validators
 CURDIR=$(pwd)
 DENOM=${2:-"acudos"}
 ERC20_ADDR="0x817bbDbC3e8A1204f3691d14bB44992841e3dB35"

@@ -1,3 +1,11 @@
+#!/bin/bash
+
+# This script is used to run an existing localnet with 3 validators
+
+# Stop any running nodes if they exist
+./scripts/stop-nodes.sh
+CURDIR=$(pwd)
+
 echo "start all three validators"
 screen -S validator1 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node0 
 screen -S validator2 -d -m build/cudos-noded start --home=$CURDIR/cudos-data/node1 
