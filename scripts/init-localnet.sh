@@ -4,12 +4,11 @@
 CURDIR=$(pwd)
 DENOM=${2:-"acudos"}
 ERC20_ADDR="0x817bbDbC3e8A1204f3691d14bB44992841e3dB35"
+
+# tidy old data
 rm -rf $CURDIR/cudos-data/
-if [[ "$OSTYPE" == "darwin"* ]]; then
-    killall SCREEN
-else
-    killall screen
-fi
+# kill any running nodes
+sh ./scripts/stop-nodes.sh
 
 # start a testnet
 build/cudos-noded testnet --keyring-backend=test
